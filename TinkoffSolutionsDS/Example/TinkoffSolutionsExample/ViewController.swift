@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         let header = CardViewCell(preset: .header, containerViewModel: accVM)
         header.sizeToFit()
         view.addSubview(header)
+        header.center = view.center
 
     }
 
