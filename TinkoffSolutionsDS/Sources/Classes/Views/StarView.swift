@@ -19,8 +19,8 @@ public final class StarView: ViewContainer {
     public override init(frame: CGRect) {
         super.init(frame: frame)
         addSubview(imageView)
-        backgroundColor = .blue
-        layer.cornerRadius = bounds.height / 2
+        imageView.backgroundColor = .blue
+        imageView.layer.cornerRadius = bounds.height / 2
     }
 
     public override func sizeThatFits(_ size: CGSize) -> CGSize {
