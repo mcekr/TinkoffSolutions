@@ -1,3 +1,0 @@
-# TinkoffSolutions
-
-ыаыаыа
